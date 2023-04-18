@@ -8,8 +8,8 @@ body{
     font-family: Montserrat;
 }
 .center{
-    padding-left: calc(600px - 240px);
-    padding-right: calc(600px - 240px);
+    padding-left: calc(600px - 480px);
+    padding-right: calc(600px - 480px);
 }
 .header{
     background-size: cover;
