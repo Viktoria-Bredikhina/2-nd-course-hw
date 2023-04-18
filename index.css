@@ -119,4 +119,9 @@ color: #FFFFFF;
 .header__button{
     margin-left: 52px;
 }
+.game{
+    height: 1221px;
+    display: flex;
+    flex-direction: column;
+}
 }
