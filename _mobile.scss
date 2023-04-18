@@ -1,0 +1,33 @@
+@media(max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header__heading{
+        font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+width: 343px;
+text-align: center;
+color: #FFFFFF;}
+.header__paragraph{
+    width: 343px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+}
+.header__button{
+    margin-left: 52px;
+}
+.game{
+    height: 1221px;
+    display: flex;
+    flex-direction: column;
+}
+}
