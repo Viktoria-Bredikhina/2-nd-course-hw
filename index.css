@@ -27,6 +27,7 @@ line-height: 78px;
 display: flex;
 align-items: center;
 color: #FFFFFF;
+width: 789px;
 }
 .header__paragraph{
     width: 481px;
