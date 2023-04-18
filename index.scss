@@ -37,6 +37,12 @@ body{
     display: flex;
     align-items: center;
     color: #FFFFFF;
+    &_bold{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+    }
     }
     &__button{
         margin-top: 44px;
@@ -80,8 +86,8 @@ font-weight: 600;
 font-size: 24px;
 line-height: 32px;
 color: #FFFFFF;
-left: 152px;
-top: 138.36px;
+left: 82px;
+top: 238.36px;
      }
  }
 }
