@@ -34,14 +34,10 @@ body{
     font-weight: 300;
     font-size: 18px;
     line-height: 32px;
-    display: flex;
-    align-items: center;
     color: #FFFFFF;
     &_bold{
         font-style: normal;
         font-weight: 700;
-        font-size: 18px;
-        line-height: 32px;
     }
     }
     &__button{
@@ -79,6 +75,10 @@ flex-direction: row;
      background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
      border-radius: 16px;
      position: relative;
+     &__img{
+        background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0231.jpg);
+        border-radius: 16px;
+    }
      &__text{
         font-family: inherit;
         font-style: normal;

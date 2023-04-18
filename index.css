@@ -35,15 +35,11 @@ color: #FFFFFF;
 font-weight: 300;
 font-size: 18px;
 line-height: 32px;
-display: flex;
-align-items: center;
 color: #FFFFFF;
 }
 .header__paragraph_bold{
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
 }
 .header__button{
     margin-top: 44px;
@@ -90,4 +86,8 @@ color: #FFFFFF;
 position: absolute;
 left: 82px;
 top: 238.36px;
+}
+.game__item__img{
+    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0231.jpg);
+    border-radius: 16px;
 }
