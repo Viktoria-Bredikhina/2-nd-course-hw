@@ -37,13 +37,13 @@ font-weight: 300;
 font-size: 18px;
 line-height: 32px;
 color: #FFFFFF;
+margin-bottom: 44px;
 }
 .header__paragraph_bold{
     font-style: normal;
     font-weight: 700;
 }
 .header__button{
-    margin-top: 44px;
     width: 234.06px;
 height: 48.6px;
 left: 120px;
@@ -64,7 +64,7 @@ color: #FFFFFF;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(./img/bottom_background.jpg);
+    background-color:  #000915;
 display: flex;
 gap: 32px;
 flex-direction: row;
@@ -92,6 +92,36 @@ top: 238.36px;
     background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0231.jpg);
     border-radius: 16px;
 }
+.seasons{
+    height: 800px;
+    background-color: #000915;
+    display: flex;
+    flex-direction: row;
+}
+.seasons__content{
+    display: flex;
+    flex-direction: column;
+}
+.seasons__heading{
+    font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+color: #FFFFFF;
+margin-bottom: 32px;
+
+}
+.seasons__paragraph{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 584px;
+    margin-bottom: 32px;
+    margin-right: 135px;
+}
+
 @media(max-width: 767px) {
     .center {
         padding-left: 16px;
