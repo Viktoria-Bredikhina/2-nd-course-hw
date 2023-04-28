@@ -30,4 +30,22 @@ color: #FFFFFF;
     display: flex;
     flex-direction: column;
 }
+.game{
+    height: 1221px;
+    display: flex;
+    flex-direction: column;
+}
+.seasons{
+    flex-direction: column;
+}
+.seasons__heading{
+    margin-top: 51px;
+}
+.seasons__paragraph{
+    width: 343px;
+    text-align: center;
+}
+.seasons__picture{
+    margin-top: 65px;
+}
 }
