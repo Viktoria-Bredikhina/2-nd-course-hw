@@ -1,4 +1,5 @@
-/ Задание 1
+"use strict";
+// Задание 1
 let password = 'пароль'
 let answer = prompt ('Введите пароль')
 answer.toLowerCase
@@ -37,38 +38,25 @@ let monthNumber = String(prompt('Введите номер месяц:'))
 switch (monthNumber) {
 
 case '12':
-alert('зима');
-break;
 case '1':
-alert('зима');
-break;
 case '2':
 alert('зима');
 break;
-case '43':
-alert('весна');
-break;
+
+case '3':
 case '4':
-alert('весна');
-break;
 case '5':
 alert('весна');
 break;
+
 case '6':
-alert('лето');
-break;
 case '7':
-alert('лето');
-break;
 case '8':
 alert('лето');
 break;
+
 case '9':
-alert('осень');
-break;
 case '10':
-alert('осень');
-break;
 case '11':
 alert('осень');
 break;
