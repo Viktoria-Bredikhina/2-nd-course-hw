@@ -151,7 +151,6 @@ body {
   line-height: 32px;
   color: #FFFFFF;
   width: 584px;
-  margin-bottom: 32px;
   margin-right: 135px;
 }
 
@@ -180,12 +179,18 @@ body {
     color: #FFFFFF;
   }
   .header__button {
+    margin-top: 32px;
     margin-left: 52px;
   }
   .game {
     height: 1221px;
     display: flex;
     flex-direction: column;
+  }
+  .game__item {
+    width: 343px;
+    height: 300px;
+    margin-top: 32px;
   }
   .game__item__img {
     width: 343px;
@@ -196,12 +201,17 @@ body {
   }
   .seasons__heading {
     margin-top: 51px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
   }
   .seasons__paragraph {
     width: 343px;
     text-align: center;
   }
-  .seasons__picture {
+  .seasons__img {
     margin-top: 65px;
     width: 344px;
   }
