@@ -30,10 +30,9 @@ color: #FFFFFF;
     display: flex;
     flex-direction: column;
 }
-.game{
-    height: 1221px;
-    display: flex;
-    flex-direction: column;
+.game__item__img{
+    width: 343px;
+height: 300px;
 }
 .seasons{
     flex-direction: column;
@@ -47,5 +46,6 @@ color: #FFFFFF;
 }
 .seasons__picture{
     margin-top: 65px;
+    width: 344px;
 }
 }

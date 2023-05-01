@@ -1,207 +1,208 @@
 @keyframes myAnim {
-	0% {
-		transform: scale3d(1, 1, 1);
-	}
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+}
 
-	30% {
-		transform: scale3d(1.25, 0.75, 1);
-	}
+body {
+  font-family: Montserrat;
+}
 
-	40% {
-		transform: scale3d(0.75, 1.25, 1);
-	}
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
 
-	50% {
-		transform: scale3d(1.15, 0.85, 1);
-	}
+.header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(./img/basicJS_background.jpg);
+  height: 1024px;
+}
+.header__heading {
+  padding-top: 217px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  width: 789px;
+}
+.header__paragraph {
+  width: 481px;
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.header__paragraph_bold {
+  font-style: normal;
+  font-weight: 700;
+}
+.header__button {
+  margin-top: 44px;
+  width: 234.06px;
+  height: 48.6px;
+  left: 120px;
+  top: 482.11px;
+  background: #9C0332;
+  border-radius: 30px;
+  border-color: transparent;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.header__button:hover {
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
 
-	65% {
-		transform: scale3d(0.95, 1.05, 1);
-	}
+.game {
+  height: 556px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000915;
+  display: flex;
+  gap: 32px;
+  flex-direction: row;
+}
+.game__item {
+  background-color: black;
+  width: 379px;
+  height: 300px;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
+  border-radius: 16px;
+  position: relative;
+}
+.game__item__img {
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0231.jpg);
+  border-radius: 16px;
+}
+.game__item__link {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+  left: 82px;
+  top: 238.36px;
+  transition: all 0.3s;
+}
+.game__item__link:hover {
+  text-decoration: underline;
+}
 
-	75% {
-		transform: scale3d(1.05, 0.95, 1);
-	}
+.seasons {
+  height: 800px;
+  background-color: #000915;
+  display: flex;
+  flex-direction: row;
+}
+.seasons__content {
+  display: flex;
+  flex-direction: column;
+}
+.seasons__heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.seasons__paragraph {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  width: 584px;
+  margin-bottom: 32px;
+  margin-right: 135px;
+}
 
-	100% {
-		transform: scale3d(1, 1, 1);
-	}
-}
-*{
-    padding: 0;
-    margin: 0;
-    outline: none;
-    text-decoration: none;
-}
-body{
-    font-family: Montserrat;
-}
-.center{
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
-}
-.header{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url(./img/basicJS_background.jpg);;
-    height: 1024px;
-}
-.header__heading{
-    padding-top: 217px;
-    font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 78px;
-display: flex;
-align-items: center;
-color: #FFFFFF;
-width: 789px;
-}
-.header__paragraph{
-    width: 481px;
-    margin-top: 32px;
-    font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 32px;
-color: #FFFFFF;
-margin-bottom: 44px;
-}
-.header__paragraph_bold{
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header__heading {
     font-style: normal;
     font-weight: 700;
-}
-.header__button{
-
-    width: 234.06px;
-height: 48.6px;
-left: 120px;
-top: 482.11px;
-background: #9C0332;
-border-radius: 30px;
-border-color: transparent;
-font-family: inherit;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-color: #FFFFFF;
-}
-.header__button:hover{
-    animation: myAnim 2s ease 0s 1 normal forwards;
-}
-.game{
-    height: 556px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color:  #000915;
-display: flex;
-gap: 32px;
-flex-direction: row;
-}
-.game__item{
-   background-color: black;
-    width: 379px;
-    height: 300px;
-    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%);
-    border-radius: 16px;
-    position: relative;
-}
-.game__item__link{
-    font-family: inherit;
-    font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 32px;
-color: #FFFFFF;
-position: absolute;
-left: 82px;
-top: 238.36px;
-transition: all 0.3s;
-}
-.game__item__link:hover{
-    text-decoration: underline;
-}
-.game__item__img{
-    background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(0231.jpg);
-    border-radius: 16px;
-}
-.seasons{
-    height: 800px;
-    background-color: #000915;
-    display: flex;
-    flex-direction: row;
-}
-.seasons__content{
-    display: flex;
-    flex-direction: column;
-}
-.seasons__heading{
-    font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 59px;
-color: #FFFFFF;
-margin-bottom: 32px;
-
-}
-.seasons__paragraph{
+    font-size: 32px;
+    line-height: 39px;
+    width: 343px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .header__paragraph {
+    width: 343px;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 300;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
     color: #FFFFFF;
-    width: 584px;
-    margin-bottom: 32px;
-    margin-right: 135px;
-}
-
-@media(max-width: 767px) {
-    .center {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
-
-    .header__heading{
-        font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 39px;
-width: 343px;
-text-align: center;
-color: #FFFFFF;}
-.header__paragraph{
-    width: 343px;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 22px;
-text-align: center;
-color: #FFFFFF;
-}
-.header__button{
+  }
+  .header__button {
     margin-left: 52px;
-}
-.game{
+  }
+  .game {
     height: 1221px;
     display: flex;
     flex-direction: column;
-}
-.seasons{
+  }
+  .game__item__img {
+    width: 343px;
+    height: 300px;
+  }
+  .seasons {
     flex-direction: column;
-}
-.seasons__heading{
+  }
+  .seasons__heading {
     margin-top: 51px;
-}
-.seasons__paragraph{
+  }
+  .seasons__paragraph {
     width: 343px;
     text-align: center;
-}
-.seasons__picture{
+  }
+  .seasons__picture {
     margin-top: 65px;
-}
-}
+    width: 344px;
+  }
+}/*# sourceMappingURL=index.css.map */
