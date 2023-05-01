@@ -120,6 +120,7 @@ body {
   color: #FFFFFF;
   left: 82px;
   top: 238.36px;
+  position: absolute;
   transition: all 0.3s;
 }
 .game__item__link:hover {
