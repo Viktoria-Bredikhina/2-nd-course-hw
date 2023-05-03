@@ -30,6 +30,7 @@
 
 body {
   font-family: Montserrat;
+  background-color: #000915;
 }
 
 .center {
@@ -157,7 +158,6 @@ body {
 .remember__content{
   display: flex;
   flex-direction: column;
-  margin-left: 150px;
 }
 
 @media (max-width: 767px) {
