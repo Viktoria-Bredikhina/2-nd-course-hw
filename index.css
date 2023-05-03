@@ -154,6 +154,11 @@ body {
   width: 584px;
   margin-right: 135px;
 }
+.remember__content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
 
 @media (max-width: 767px) {
   .center {

@@ -158,5 +158,9 @@ transition: all 0.3s;
     }
     
 }
-
+.remember__content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+}
 @import 'mobile';
