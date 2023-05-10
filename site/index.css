@@ -137,6 +137,7 @@ body {
 .seasons__content {
   display: flex;
   flex-direction: column;
+  margin-top: 276px;
 }
 .seasons__heading {
   font-style: normal;
@@ -155,9 +156,43 @@ body {
   width: 584px;
   margin-right: 135px;
 }
+.seasons__picture{
+  margin-top: 276px;
+}
 .remember__content{
   display: flex;
   flex-direction: column;
+  margin-left: 150px;
+  margin-top: 276px;
+}
+.riddles{
+  height: 800px;
+  background-image: url(./img/riddles_bgr.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.riddles__heading{
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 276px;
+}
+.riddles__paragraph{
+  font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 32px;
+
 }
 
 @media (max-width: 767px) {
@@ -222,4 +257,5 @@ body {
     margin-top: 65px;
     width: 344px;
   }
-}/*# sourceMappingURL=index.css.map */
+
+/*# sourceMappingURL=index.css.map */}
