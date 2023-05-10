@@ -45,3 +45,19 @@ function minorCheck(age, answer) {
 // Задание 5
 // Задание 6
 // Задание 7
+const circle1 = {
+	radius: 9,
+	getArea: function() {
+S = p * radius**2
+		console.log(`${S}`);
+	}
+}
+circle1(); 
+
+const circle2 = {
+	radius: 4,
+	getPerimeter: function() {
+		console.log('${dog.name} лает: Гав!');
+	}
+}
+circle2(); 
