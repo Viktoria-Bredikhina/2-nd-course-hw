@@ -20,17 +20,19 @@ function EvenUneven() {
 }
 EvenUneven();
 // Задание 3.1
-function figureSquare(a, b) {
+function figureSquare() {
   let a = Number (prompt('Введите число'));
   b = a**2;
-  console.log('${b}');
+  console.log(`${b}`);
 }
+figureSquare();
 // Задание 3.2
-function figureSquare(a, b) {
+function figureSquare() {
   let a = Number (prompt('Введите число'));
-  return b = a**2;
-  console.log('${b}');
+  let b = a**2;
+  return b;
 }
+figureSquare() 
 // Задание 4
 function minorCheck(age, answer) {
   let age = String (prompt('Сколько Вам лет?'));
