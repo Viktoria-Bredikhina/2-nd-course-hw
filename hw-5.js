@@ -46,14 +46,25 @@ function minorCheck(age, answer) {
 function figureChecker() {
   let a = Number(prompt('Введите число'));
   let b = Number(prompt('Введите число'));
-  c = a*b;
+  let c = a*b;
   if (isNaN(a,b)) {
     alert(` 'Одно или оба значения не являются числом'.`);
   } else {
     alert(c);
   }
 }
+figureChecker()
 // Задание 6
+function figureChecker() {
+  let a = Number(prompt('Введите число'));
+  let c = Math.pow (a,2);
+  if (isNaN(a)) {
+    alert(`Переданный параметр не является числом`);
+  } else {
+    alert(c);
+  }
+}
+figureChecker()
 // Задание 7
 const circle1 = {
 	radius: 9,
