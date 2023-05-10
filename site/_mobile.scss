@@ -42,9 +42,13 @@ position: relative;
 height: 100%;
 object-fit: cover
 }
-.seasons{
+.seasons {
     flex-direction: column;
-}
+    height: 650px;
+  }
+  .seasons__content{
+    margin-top: 51px;
+  }
 .seasons__heading{
     margin-top: 51px;
     font-style: normal;
@@ -58,8 +62,35 @@ text-align: center;
     width: 343px;
     text-align: center;
 }
-.seasons__img{
+.seasons__picture {
     margin-top: 65px;
+  }
+  .seasons__img{
     width: 344px;
-}
+  }
+  .riddles{
+    height: 800px;
+  }
+  .riddles__paragraph{
+    font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+  }
+  .riddles__heading{
+    font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  }
+  .remember{
+    flex-direction: column-reverse;
+    height: 650px;
+  }
+  .remember__content{
+    margin-top: 35px;
+    margin-left: 0px;
+  }
 }
