@@ -192,7 +192,20 @@ line-height: 32px;
 text-align: center;
 color: #FFFFFF;
 margin-top: 32px;
-
+}
+.footer{
+  height: 80px;
+  background-color: #000915;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__text{
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #FFFFFF;
 }
 
 @media (max-width: 767px) {
