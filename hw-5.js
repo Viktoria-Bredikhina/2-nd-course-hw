@@ -34,21 +34,24 @@ function figureSquare() {
 }
 figureSquare() 
 // Задание 4
-function minorCheck(age, answer) {
-  let age = String (prompt('Сколько Вам лет?'));
+function minorCheck() {
+  let age = Number (prompt('Сколько Вам лет?'));
   switch (age) {
-      case a>0 && a<12:
+      case age>0 && age<12:
       alert(`Привет, друг!`);
       break;
 
-      case a>=13:
+      case age>=13:
       alert(`Добро пожаловать!`);
+      break;
+
     default:
-      a<0;
+      age<0;
       alert(`Вы ввели неправильное значение`);
       break;
   }
 }
+minorCheck()
 // Задание 5
 function figureChecker() {
   let a = Number(prompt('Введите число'));
@@ -73,19 +76,28 @@ function figureChecker() {
 }
 figureChecker()
 // Задание 7
-const circle1 = {
-	radius: 9,
-	getArea: function() {
-S = p * radius**2
-		console.log(`${S}`);
-	}
-}
-circle1(); 
 
-const circle2 = {
-	radius: 4,
-	getPerimeter: function() {
-		console.log('${dog.name} лает: Гав!');
-	}
+function getCircleArea() {              
+  return this.radius**2 * 3.14
 }
-circle2(); 
+
+function getCirclePerimeter() {
+  return this.radius * 3.14
+
+}
+let circle1 = {
+  radius: 10,
+
+  getArea: getCircleArea,
+  getPerimeter: getCirclePerimeter 
+}
+let circle2 = {
+  radius: 5,
+
+  getArea: getCircleArea,
+  getPerimeter: getCirclePerimeter 
+}
+console.log(circle1.getArea());
+console.log(circle1.getPerimeter());
+console.log(circle2.getArea());
+console.log(circle2.getPerimeter());
