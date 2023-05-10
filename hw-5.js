@@ -23,18 +23,18 @@ function figureSquare(a, b) {
 // Задание 3.2
 function figureSquare(a, b) {
   let a = Number (prompt('Введите число'));
-  returen b = a**2;
+  return b = a**2;
   console.log('${b}');
 }
 // Задание 4
 function minorCheck(age, answer) {
   let age = String (prompt('Сколько Вам лет?'));
   switch (age) {
-      case a>0 && a<12;
+      case a>0 && a<12:
       alert(`Привет, друг!`);
       break;
 
-      case a>=13;
+      case a>=13:
       alert(`Добро пожаловать!`);
     default:
       a<0;
