@@ -10,7 +10,7 @@ function min(a, b) {
 min (8,4);
 min (6,6);
 // Задание 2
-function EvenUneven(a, answer) {
+function EvenUneven() {
   let a = Number (prompt('Пожалуйста, введите число'));
   if (a % 2 == 0) {
     alert(`Чётное`);
@@ -18,6 +18,7 @@ function EvenUneven(a, answer) {
     alert(`Нечётное`);
   }
 }
+EvenUneven();
 // Задание 3.1
 function figureSquare(a, b) {
   let a = Number (prompt('Введите число'));
