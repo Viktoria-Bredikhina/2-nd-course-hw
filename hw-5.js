@@ -43,6 +43,16 @@ function minorCheck(age, answer) {
   }
 }
 // Задание 5
+function figureChecker() {
+  let a = Number(prompt('Введите число'));
+  let b = Number(prompt('Введите число'));
+  c = a*b;
+  if (isNaN(a,b)) {
+    alert(` 'Одно или оба значения не являются числом'.`);
+  } else {
+    alert(c);
+  }
+}
 // Задание 6
 // Задание 7
 const circle1 = {

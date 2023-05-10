@@ -1,7 +1,7 @@
-function findSeason(M)
+function findSeason()
 {
-    let M = String (prompt ('Введите номер месяца'));
-    switch (M) {
+    let month = String (prompt ('Введите номер месяца'));
+    switch (month) {
     case 12:
     case 1:
     case 2:
@@ -27,4 +27,5 @@ function findSeason(M)
         break;
     }
 }
+findSeason()
 
