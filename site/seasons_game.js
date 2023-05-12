@@ -18,5 +18,5 @@ function findSeason()
     alert(`Вы ввели что-то не то, попробуйте еще раз`);}
     }
 }
-findSeason()
+// findSeason()
 
