@@ -71,8 +71,8 @@ let numero = [9, 8, 7, 6, 5, 3]
 
  }
  //Задание 13
- function filterPositive(arrayNum) {
-     return arrayNum.filter((el) => el < 0)
+ function filterPositive(arrayNew) {
+     return arrayNew.filter((el) => el < 0)
 
  }
  console.log(filterPositive([-1, 0, 5, -10, 56]));
