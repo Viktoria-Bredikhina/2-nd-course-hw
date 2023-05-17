@@ -8,8 +8,8 @@ const row = [1, 5, 4, 10, 0, 3];
 console.log(row.indexOf(4));
 //Задание 3
 const random = [1, 3, 5, 10, 20];
-let result = random.join(' ');
-console.log(result);
+random = random.join(' ');
+console.log(random);
 //Задание 4
 const arr = [];
 for (let i = 0; i < 3; i++) {
@@ -23,18 +23,35 @@ console.log(arr);
 const ones = [1, 1, 1];
 ones.push(2, 2, 2)
 console.log(ones);
-//Задание 6
-const mix = [9, 8, 7, 'a', 6, 5];
 
+//Задание 6
+const mix = [9, 8, 7, 'a', 6, 5]
+
+ mix.sort()
+ mix.pop()
+ console.log(mix);
 //Задание 7
-let array = [9, 8, 7, 6, 5];
-let index = (prompt('Введите число от 1 до 10'));
-let search = array.includes(index);
-console.log(search);
+
+let ask = Number(prompt('Введите число от 1 до 10'));
+
+ const array = [9, 8, 7, 6, 5];
+
+ let isPresent = array.includes(ask);
+
+ console.log(isPresent);
+
 //Задание 8
 const str = 'abcdef';
 const reverse = str.split('').reverse().join('');
 console.log(reverse);
 //Задание 9
-const newArray = [].concat(array1, array2, array3, arrayN);
+let digits = [[1, 2, 3,],[4, 5, 6]]
+ let arrNew = digits.flat()
+ console.log(arrNew);
 //Задание 10
+let numero = [9, 8, 7, 6, 5, 3]
+
+ for (let i = 0; i < numero.length; i++) {
+     let sum = numero.reduce((first,last) => first+last)
+     console.log(sum);   
+ }
