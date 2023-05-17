@@ -55,3 +55,25 @@ let numero = [9, 8, 7, 6, 5, 3]
      let sum = numero.reduce((first,last) => first+last)
      console.log(sum);   
  }
+ //Задание 11
+ const base = [6 , 24, 56]
+ let square = base.map(el=>(el**2))
+  console.log(square);
+
+ //Задание 12
+
+ getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']);
+ let starter = []
+ function getLengthWords(starter) {
+     for (let i = 0; i < starter.length; i++) {
+         console.log(starter[i].length);  
+     }
+
+ }
+ //Задание 13
+ function filterPositive(arrayNum) {
+     return arrayNum.filter((el) => el < 0)
+
+ }
+ console.log(filterPositive([-1, 0, 5, -10, 56]));
+ console.log(filterPositive([-25, 25, 0, -1000, -2])); 
