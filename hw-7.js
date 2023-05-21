@@ -65,6 +65,19 @@ console.log(currentDate);
 
 // Задание 9. Создайте переменную currentDate и сохраните в нее текущую дату. Выведите дату, которая наступит через 73 дня после текущей.
 
+currentDate.setDate(currentDate.getDate() + 73);
+ console.log(currentDate);
 // Задание 10.
 
-// Задание 11.
+const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+
+ const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+     "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+
+ let myDate = new Date();
+
+ let fullDate = "Дата: " + myDate.getDate() + " " + months[myDate.getMonth()] + " " + myDate.getFullYear() +
+     " - это " + days[myDate.getDay()] +
+     " Врем: " + myDate.getHours() + ":" + myDate.getMinutes() + ":" + myDate.getSeconds();
+
+ console.log(fullDate);
