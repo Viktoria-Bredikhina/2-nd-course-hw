@@ -39,15 +39,15 @@ figuresRandomizer(1, 10);
 
 // Задание 6. Напишите функцию, которая будет принимать на вход целое число, а возвращать массив случайных целых чисел от 0 до переданного числа. Длина массива должна быть в 2 раза меньше переданного числа.
 
-let arrCreator = (num) => {
+function arrCreator (num) {
   const randomRow = [];
-  randomRow.length = Math.floor(num/2);
-  for(let i = 0; i < randomRow.length; i++) {
-randomRow.push(Math.floor(Math.random) * 5)
-  }
- 
+  let lengthNum = Math.round((num/2));
+  for (let i = 0; i < lengthNum; i++) {
+randomRow.push(Math.round(Math.random() * num))
+  };
+  console.log (randomRow);
 }
-
+arrCreator(15);
 // Задание 7. Напишите функцию, которая на вход принимает 2 целых числа, а в качестве результата возвращает случайное целое число в этом диапазоне.
 function generateRandom(min = 0, max = 100) {
 
